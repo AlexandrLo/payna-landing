@@ -9,7 +9,7 @@ import App from "./App";
 ReactDOM.render(
 	<React.StrictMode>
 		<ChakraProvider theme={theme}>
-			<BrowserRouter>
+			<BrowserRouter basename="/payna-landing">
 				<App />
 			</BrowserRouter>
 		</ChakraProvider>
