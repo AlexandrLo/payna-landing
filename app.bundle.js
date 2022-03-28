@@ -37495,7 +37495,6 @@ function EmailInput(props) {
   }, "Get Started")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Hide, {
     above: "sm"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__.Input, _extends({
-    pr: "13.25rem",
     type: "email",
     variant: "filled",
     placeholder: "Email Address"
