@@ -7,7 +7,6 @@ module.exports = {
 	output: {
 		path: path.join(__dirname, "dist"),
 		filename: "app.bundle.js",
-		publicPath: "/",
 		clean: true,
 	},
 	mode: process.env.NODE_ENV || "development",
