@@ -36,7 +36,6 @@ function EmailInput(props) {
 			</Show>
 			<Hide above="sm">
 				<Input
-					pr="13.25rem"
 					type="email"
 					variant="filled"
 					placeholder="Email Address"
