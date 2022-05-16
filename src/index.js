@@ -1,19 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+
 import { ChakraProvider } from "@chakra-ui/react";
-import theme from "theme";
+import { HashRouter } from "react-router-dom";
 
 import App from "./App";
 import { customLocalStorageManager } from "utils/customLocalStorageManager";
+import theme from "theme";
 
 ReactDOM.render(
-	<React.StrictMode>
-			<BrowserRouter basename="/payna-landing">
-				<App />
-			</BrowserRouter>
-		</ChakraProvider>
-	</React.StrictMode>,
-	document.getElementById("root")
+  <React.StrictMode>
     <ChakraProvider theme={theme} colorModeManager={customLocalStorageManager}>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </ChakraProvider>
+  </React.StrictMode>,
+  document.getElementById("root"),
 );
