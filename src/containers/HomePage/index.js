@@ -1,19 +1,19 @@
 import React from "react";
-import { VStack } from "@chakra-ui/react";
+
+import CTA from "components/CTA";
+import Features from "components/Features";
 import Hero from "components/Hero";
 import LogoCloud from "components/LogoCloud";
-import Features from "components/Features";
-import CTA from "components/CTA";
 
 function HomePage() {
-	return (
-		<div>
-			<Hero />
-			<LogoCloud />
-			<Features />
-			<CTA />
-		</div>
-	);
+  return (
+    <>
+      <Hero />
+      <LogoCloud />
+      <Features />
+      <CTA />
+    </>
+  );
 }
 
 export default HomePage;
