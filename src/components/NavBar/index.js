@@ -10,9 +10,15 @@ function NavBar() {
     <Container size="lg" py="2.5rem">
       <HStack>
         <Box w="100%" position="relative">
-          <Box translateY="-0.2rem" transform="auto">
+          <Link
+            as={NavLink}
+            to="/"
+            transform="auto"
+            translateY="-0.2rem"
+            _focus={{ boxShadow: "none" }}
+          >
             <Logo />
-          </Box>
+          </Link>
         </Box>
         <Show above="lg">
           <HStack w="auto" spacing="3.75rem">
