@@ -47,6 +47,13 @@ const theme = extendTheme({
     heading: "Poppins",
     body: "Poppins",
   },
+  styles: {
+    global: {
+      "*, *::before, &::after": {
+        WebkitTapHighlightColor: "transparent",
+      },
+    },
+  },
 });
 
 export default theme;
