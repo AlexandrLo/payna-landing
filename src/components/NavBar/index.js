@@ -1,15 +1,7 @@
 import React from "react";
 
 import { NavLink } from "react-router-dom";
-import {
-  Box,
-  Button,
-  Container,
-  Flex,
-  HStack,
-  Link,
-  Show,
-} from "@chakra-ui/react";
+import { Box, Button, Container, HStack, Link, Show } from "@chakra-ui/react";
 
 import Logo from "assets/svg/logo.svg";
 
@@ -39,11 +31,11 @@ function NavBar() {
           </HStack>
         </Show>
         <Show above="sm">
-          <Flex w="100%" display="flex" justify="end">
+          <HStack w="100%" justify="flex-end">
             <Button colorScheme="gray" fontWeight="400">
               Sign In
             </Button>
-          </Flex>
+          </HStack>
         </Show>
       </HStack>
     </Container>
