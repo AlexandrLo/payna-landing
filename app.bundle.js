@@ -31535,7 +31535,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var pkg = {
 	name: "@emotion/react",
-	version: "11.8.2",
+	version: "11.9.0",
 	main: "dist/emotion-react.cjs.js",
 	module: "dist/emotion-react.esm.js",
 	browser: {
@@ -31564,7 +31564,7 @@ var pkg = {
 		"@babel/runtime": "^7.13.10",
 		"@emotion/babel-plugin": "^11.7.1",
 		"@emotion/cache": "^11.7.1",
-		"@emotion/serialize": "^1.0.2",
+		"@emotion/serialize": "^1.0.3",
 		"@emotion/utils": "^1.1.0",
 		"@emotion/weak-memoize": "^0.2.5",
 		"hoist-non-react-statics": "^3.3.1"
@@ -31583,7 +31583,7 @@ var pkg = {
 	},
 	devDependencies: {
 		"@babel/core": "^7.13.10",
-		"@emotion/css": "11.7.1",
+		"@emotion/css": "11.9.0",
 		"@emotion/css-prettifier": "1.0.1",
 		"@emotion/server": "11.4.0",
 		"@emotion/styled": "11.8.1",
@@ -31946,7 +31946,7 @@ var processStyleValue = function processStyleValue(key, value) {
 };
 
 if (true) {
-  var contentValuePattern = /(attr|counters?|url|(((repeating-)?(linear|radial))|conic)-gradient)\(|(no-)?(open|close)-quote/;
+  var contentValuePattern = /(var|attr|counters?|url|(((repeating-)?(linear|radial))|conic)-gradient)\(|(no-)?(open|close)-quote/;
   var contentValues = ['normal', 'none', 'initial', 'inherit', 'unset'];
   var oldProcessStyleValue = processStyleValue;
   var msPattern = /^-ms-/;
@@ -36979,7 +36979,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _path, _path2, _path3;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37026,7 +37026,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _g, _defs;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37072,7 +37072,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _g, _defs;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37131,7 +37131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _g, _defs;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37200,7 +37200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _g, _defs;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37244,7 +37244,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _path, _rect, _circle, _circle2;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37295,7 +37295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var _circle, _circle2, _path;
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -37478,7 +37478,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/media-query/dist/chakra-ui-media-query.esm.js");
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/input/dist/chakra-ui-input.esm.js");
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/button/dist/chakra-ui-button.esm.js");
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 
 
@@ -80959,16 +80959,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var getChildKey = function (child) { return child.key || ""; };
-var isDev = "development" !== "production";
 function updateChildLookup(children, allChildren) {
-    var seenChildren = isDev ? new Set() : null;
     children.forEach(function (child) {
         var key = getChildKey(child);
-        if (isDev && seenChildren && seenChildren.has(key)) {
-            console.warn("Children of AnimatePresence require unique keys. \"".concat(key, "\" is a duplicate."));
-            seenChildren.add(key);
-        }
         allChildren.set(key, child);
     });
 }
@@ -83241,6 +83236,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var featureNames = Object.keys(_definitions_mjs__WEBPACK_IMPORTED_MODULE_2__.featureDefinitions);
 var numFeatures = featureNames.length;
 /**
@@ -83415,6 +83411,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _render_utils_types_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../render/utils/types.mjs */ "./node_modules/framer-motion/dist/es/render/utils/types.mjs");
 /* harmony import */ var _utils_warn_once_mjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../utils/warn-once.mjs */ "./node_modules/framer-motion/dist/es/utils/warn-once.mjs");
 /* harmony import */ var _observers_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./observers.mjs */ "./node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs");
+
 
 
 
@@ -83985,6 +83982,7 @@ var validMotionProps = new Set([
     "layout",
     "layoutId",
     "layoutDependency",
+    "onLayoutAnimationStart",
     "onLayoutAnimationComplete",
     "onLayoutMeasure",
     "onBeforeLayoutMeasure",
@@ -84925,7 +84923,7 @@ function createProjectionNode(_a) {
                     }
                     // TODO: Check here if an animation exists
                     var layoutTransition = (_c = (_b = _this.options.transition) !== null && _b !== void 0 ? _b : visualElement.getDefaultTransition()) !== null && _c !== void 0 ? _c : defaultLayoutTransition;
-                    var onLayoutAnimationComplete = visualElement.getProps().onLayoutAnimationComplete;
+                    var _g = visualElement.getProps(), onLayoutAnimationStart = _g.onLayoutAnimationStart, onLayoutAnimationComplete = _g.onLayoutAnimationComplete;
                     /**
                      * The target layout of the element might stay the same,
                      * but its position relative to its parent has changed.
@@ -84948,7 +84946,7 @@ function createProjectionNode(_a) {
                             _this.resumingFrom.resumingFrom = undefined;
                         }
                         _this.setAnimationOrigin(delta, hasOnlyRelativeTargetChanged);
-                        var animationOptions = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__assign)((0,tslib__WEBPACK_IMPORTED_MODULE_1__.__assign)({}, (0,_animation_utils_transitions_mjs__WEBPACK_IMPORTED_MODULE_5__.getValueTransition)(layoutTransition, "layout")), { onComplete: onLayoutAnimationComplete });
+                        var animationOptions = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__assign)((0,tslib__WEBPACK_IMPORTED_MODULE_1__.__assign)({}, (0,_animation_utils_transitions_mjs__WEBPACK_IMPORTED_MODULE_5__.getValueTransition)(layoutTransition, "layout")), { onPlay: onLayoutAnimationStart, onComplete: onLayoutAnimationComplete });
                         if (visualElement.shouldReduceMotion) {
                             animationOptions.delay = 0;
                             animationOptions.type = false;
@@ -85481,6 +85479,7 @@ function createProjectionNode(_a) {
         ProjectionNode.prototype.startAnimation = function (options) {
             var _this = this;
             var _a, _b;
+            this.notifyListeners("animationStart");
             (_a = this.currentAnimation) === null || _a === void 0 ? void 0 : _a.stop();
             if (this.resumingFrom) {
                 (_b = this.resumingFrom.currentAnimation) === null || _b === void 0 ? void 0 : _b.stop();
@@ -88538,7 +88537,6 @@ var svgMotionConfig = {
                 };
             }
             (0,_utils_build_attrs_mjs__WEBPACK_IMPORTED_MODULE_3__.buildSVGAttrs)(renderState, latestValues, { enableHardwareAcceleration: false }, props.transformTemplate);
-            // TODO: Replace with direct assignment
             (0,_utils_render_mjs__WEBPACK_IMPORTED_MODULE_4__.renderSVG)(instance, renderState);
         },
     }),
@@ -88833,8 +88831,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function renderSVG(element, renderState) {
-    (0,_html_utils_render_mjs__WEBPACK_IMPORTED_MODULE_0__.renderHTML)(element, renderState);
+function renderSVG(element, renderState, _styleProp, projection) {
+    (0,_html_utils_render_mjs__WEBPACK_IMPORTED_MODULE_0__.renderHTML)(element, renderState, undefined, projection);
     for (var key in renderState.attrs) {
         element.setAttribute(!_camel_case_attrs_mjs__WEBPACK_IMPORTED_MODULE_1__.camelCaseAttributes.has(key) ? (0,_dom_utils_camel_to_dash_mjs__WEBPACK_IMPORTED_MODULE_2__.camelToDash)(key) : key, renderState.attrs[key]);
     }
@@ -89586,6 +89584,7 @@ var names = [
     "AnimationComplete",
     "LayoutAnimationComplete",
     "AnimationStart",
+    "LayoutAnimationStart",
     "SetAxisTarget",
     "Unmount",
 ];
@@ -90006,7 +90005,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "isBrowser": () => (/* binding */ isBrowser)
 /* harmony export */ });
-var isBrowser = typeof window !== "undefined";
+var isBrowser = typeof document !== "undefined";
 
 
 
@@ -90406,9 +90405,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "useReducedMotion": () => (/* binding */ useReducedMotion),
 /* harmony export */   "useReducedMotionConfig": () => (/* binding */ useReducedMotionConfig)
 /* harmony export */ });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _context_MotionConfigContext_mjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/MotionConfigContext.mjs */ "./node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs");
+/* harmony import */ var _context_MotionConfigContext_mjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../context/MotionConfigContext.mjs */ "./node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs");
+/* harmony import */ var _is_browser_mjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./is-browser.mjs */ "./node_modules/framer-motion/dist/es/utils/is-browser.mjs");
+
 
 
 
@@ -90418,7 +90419,7 @@ var prefersReducedMotion = { current: null };
 var hasDetected = false;
 function initPrefersReducedMotion() {
     hasDetected = true;
-    if (typeof window === "undefined")
+    if (!_is_browser_mjs__WEBPACK_IMPORTED_MODULE_1__.isBrowser)
         return;
     if (window.matchMedia) {
         var motionMediaQuery_1 = window.matchMedia("(prefers-reduced-motion)");
@@ -90463,7 +90464,7 @@ function useReducedMotion() {
      * Lazy initialisation of prefersReducedMotion
      */
     !hasDetected && initPrefersReducedMotion();
-    var _a = (0,tslib__WEBPACK_IMPORTED_MODULE_1__.__read)((0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(prefersReducedMotion.current), 1), shouldReduceMotion = _a[0];
+    var _a = (0,tslib__WEBPACK_IMPORTED_MODULE_2__.__read)((0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(prefersReducedMotion.current), 1), shouldReduceMotion = _a[0];
     /**
      * TODO See if people miss automatically updating shouldReduceMotion setting
      */
@@ -90471,7 +90472,7 @@ function useReducedMotion() {
 }
 function useReducedMotionConfig() {
     var reducedMotionPreference = useReducedMotion();
-    var reducedMotion = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_MotionConfigContext_mjs__WEBPACK_IMPORTED_MODULE_2__.MotionConfigContext).reducedMotion;
+    var reducedMotion = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_context_MotionConfigContext_mjs__WEBPACK_IMPORTED_MODULE_3__.MotionConfigContext).reducedMotion;
     if (reducedMotion === "never") {
         return false;
     }
@@ -94210,6 +94211,11 @@ function combine (array, callback) {
 /******/ 		// no on chunks loaded
 /******/ 		
 /******/ 		// no jsonp function
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
