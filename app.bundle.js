@@ -37440,9 +37440,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/index.js");
-/* harmony import */ var containers_HomePage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! containers/HomePage */ "./src/containers/HomePage/index.js");
+/* harmony import */ var pages_Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! pages/Home */ "./src/pages/Home/index.js");
 /* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/NavBar */ "./src/components/NavBar/index.js");
-/* harmony import */ var containers_NotFoundPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! containers/NotFoundPage */ "./src/containers/NotFoundPage/index.js");
+/* harmony import */ var pages_NotFound__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! pages/NotFound */ "./src/pages/NotFound/index.js");
 
 
 
@@ -37451,22 +37451,22 @@ __webpack_require__.r(__webpack_exports__);
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, {
     path: "*",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(containers_NotFoundPage__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(pages_NotFound__WEBPACK_IMPORTED_MODULE_3__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, {
     path: "/404",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(containers_NotFoundPage__WEBPACK_IMPORTED_MODULE_3__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(pages_NotFound__WEBPACK_IMPORTED_MODULE_3__["default"], null)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, {
     path: "/",
-    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(containers_HomePage__WEBPACK_IMPORTED_MODULE_1__["default"], null)
+    element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(pages_Home__WEBPACK_IMPORTED_MODULE_1__["default"], null)
   })));
 }
 
 /***/ }),
 
-/***/ "./src/components/CTA/EmailInput.js":
-/*!******************************************!*\
-  !*** ./src/components/CTA/EmailInput.js ***!
-  \******************************************/
+/***/ "./src/components/CTA/EmailInput/index.js":
+/*!************************************************!*\
+  !*** ./src/components/CTA/EmailInput/index.js ***!
+  \************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37526,7 +37526,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/layout/dist/chakra-ui-layout.esm.js");
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/image/dist/chakra-ui-image.esm.js");
-/* harmony import */ var _EmailInput__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EmailInput */ "./src/components/CTA/EmailInput.js");
+/* harmony import */ var _EmailInput__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EmailInput */ "./src/components/CTA/EmailInput/index.js");
 /* harmony import */ var assets_svg_video_play_button_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! assets/svg/video-play-button.svg */ "./src/assets/svg/video-play-button.svg");
 
 
@@ -37609,10 +37609,10 @@ function CTA() {
 
 /***/ }),
 
-/***/ "./src/components/Features/Feature.js":
-/*!********************************************!*\
-  !*** ./src/components/Features/Feature.js ***!
-  \********************************************/
+/***/ "./src/components/Features/Feature/index.js":
+/*!**************************************************!*\
+  !*** ./src/components/Features/Feature/index.js ***!
+  \**************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37680,7 +37680,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _chakra_ui_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @chakra-ui/react */ "./node_modules/@chakra-ui/layout/dist/chakra-ui-layout.esm.js");
 /* harmony import */ var react_icons_fi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fi */ "./node_modules/react-icons/fi/index.esm.js");
-/* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Feature */ "./src/components/Features/Feature.js");
+/* harmony import */ var _Feature__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Feature */ "./src/components/Features/Feature/index.js");
 
 
 
@@ -38020,10 +38020,10 @@ function NavBar() {
 
 /***/ }),
 
-/***/ "./src/containers/HomePage/index.js":
-/*!******************************************!*\
-  !*** ./src/containers/HomePage/index.js ***!
-  \******************************************/
+/***/ "./src/pages/Home/index.js":
+/*!*********************************!*\
+  !*** ./src/pages/Home/index.js ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -38042,18 +38042,18 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function HomePage() {
+function Home() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(components_Hero__WEBPACK_IMPORTED_MODULE_3__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(components_LogoCloud__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(components_Features__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(components_CTA__WEBPACK_IMPORTED_MODULE_1__["default"], null));
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HomePage);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
 /***/ }),
 
-/***/ "./src/containers/NotFoundPage/index.js":
-/*!**********************************************!*\
-  !*** ./src/containers/NotFoundPage/index.js ***!
-  \**********************************************/
+/***/ "./src/pages/NotFound/index.js":
+/*!*************************************!*\
+  !*** ./src/pages/NotFound/index.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -38069,7 +38069,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function NotFoundPage() {
+function NotFound() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_chakra_ui_react__WEBPACK_IMPORTED_MODULE_1__.Container, {
     size: "md",
     pt: {
@@ -38092,7 +38092,7 @@ function NotFoundPage() {
   }, "Back to Homepage")));
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFoundPage);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFound);
 
 /***/ }),
 
