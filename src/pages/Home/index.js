@@ -5,7 +5,7 @@ import Features from "components/Features";
 import Hero from "components/Hero";
 import LogoCloud from "components/LogoCloud";
 
-function HomePage() {
+function Home() {
   return (
     <>
       <Hero />
@@ -16,4 +16,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Home;

@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Container, Heading, VStack } from "@chakra-ui/react";
 
-function NotFoundPage() {
+function NotFound() {
   return (
     <Container
       size="md"
@@ -22,4 +22,4 @@ function NotFoundPage() {
   );
 }
 
-export default NotFoundPage;
+export default NotFound;
