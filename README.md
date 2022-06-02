@@ -18,6 +18,14 @@
     <a href="https://github.com/AlexandrLo/payna-landing/issues">Report Bug</a>
     ·
     <a href="https://github.com/AlexandrLo/payna-landing/issues">Request Feature</a>
+		<br />
+    <br />
+    <a href="https://github.com/AlexandrLo/payna-landing/actions/workflows/deploy.yml">
+      <img src="https://github.com/AlexandrLo/payna-landing/actions/workflows/deploy.yml/badge.svg" alt="Deploy" >
+    </a>
+    <a href="https://github.com/AlexandrLo/payna-landing/actions/workflows/pages/pages-build-deployment">
+      <img src="https://github.com/AlexandrLo/payna-landing/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages" alt="pages-build-deployment" >
+    </a>
   </p>
 </div>
 
